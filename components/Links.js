@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export function Links() {
   return (
-    <>    
+    <div>    
         <div className={styles.center}>
           <Image
             className={styles.logo}
@@ -76,6 +76,6 @@ export function Links() {
             </p>
           </a>
         </div>
-    </>
+    </div>
   )
 }
